@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body style="background-color: bisque">
+<table>
+    <tr>
+        <img src="Images/1484150873_shapka-sayta-biblioteka-dlya-uchiteley-154631.png" alt="library" style="width:100%;">
+    </tr>
+    <tr >
+        <td id="left">
+            <h3 align="left">Разделы библиотеки:</h3>
+            <ol type="1">
+                <li>Фантастика</li>
+                <ul type="circle">
+                    <li>Научная</li>
+                    <li>Фэнтези</li>
+                </ul>
+                <li>Детская книга</li>
+                <ul type="circle">
+                    <li>Для дошкольников</li>
+                    <li>Для школьников младших классов</li>
+                </ul>
+            </ol>
+        </td>
+        <td></td>
+        <td id="right">
+            <h3 align="left">Авторы:</h3>
+            <ol type="1">
+                <li>Зарубежные</li>
+                <ul type="circle">
+                    <li>Роберт Шекли</li>
+                    <li>Эндрю Нортон</li>
+                </ul>
+                <li>Отечественные</li>
+                <ul type="circle">
+                    <li>Тарас Шевченко</li>
+                    <li>Иван Франко</li>
+                </ul>
+            </ol>
+        </td>
+    </tr>
+    <table id="register" style="background-color: peru">
+        <tr>
+            <h1 align="center">Зарегистрироваться в системе </h1>
+            <td>
+
+                <label>Имя и Фамилия Читателя:</label>
+            </td>
+            <td colspan="2">
+                <input id="NameField" type="text" placeholder="Укажите имя и фамилию">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Дата Рождения:</label>
+            </td>
+            <td colspan="2">
+                <input id="DateTime" type="date" placeholder="дд.мм.гггг">
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>
+                <label>Тип читательского билета:</label>
+            </td>
+            <td colspan="2">
+                <ul type="none">
+                    <li>
+                        <label>
+                            <input type="radio" name="radio1" value="year">
+                            Годовой
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="radio2" value="full">
+                            Постоянный
+                        </label>
+                    </li>
+                    <li >
+                        <label>
+                            <input type="radio" name="radio3" value="one">
+                            Разовый
+                        </label>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Ваш E-Mail
+                </label>
+            </td>
+            <td colspan="2">
+                <input id="EmailField" type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Ваш Адрес
+                </label>
+            </td>
+            <td colspan="2">
+                <input id="AddressField" type="text" placeholder="Введите ваш Адрес">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Город
+                </label>
+            </td>
+            <td colspan="2">
+                <select style="border-radius: 30px" name="City" id="_city">
+                    <option>Москва</option>
+                    <option>Киев</option>
+                    <option>Барнаул</option>
+                    <option>Сочи</option>
+                    <option>Анапа</option>
+                    <option>Тула</option>
+                    <option>Новомосковск</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 33%"></td>
+            <td style="width: 33%">
+                <input id="_sub" type="submit" value="Зарегистрироваться">
+            </td>
+            <td style="width: 33%"></td>
+
+        </tr>
+    </table>
+</table>
+
+</body>
+</html>
